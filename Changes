@@ -1,5 +1,8 @@
 Revision history for POE-Component-Syntax-Highlight-HTML
 
+0.0201  November 1, 2008
+        Added the ability to fetch code from URIs
+
 0.0101  October 19, 2008
         First version, released on an unsuspecting world.
 

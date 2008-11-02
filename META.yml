@@ -1,6 +1,6 @@
 ---
 name: POE-Component-Syntax-Highlight-HTML
-version: 0.0101
+version: 0.0201
 author:
   - "Zoffix <'zoffix@cpan.org'>"
 abstract: non-blocking wrapper around Syntax::Highlight::HTML
@@ -8,6 +8,7 @@ license: perl
 resources:
   license: http://dev.perl.org/licenses/
 requires:
+  LWP::UserAgent: 2.036
   POE: 0.9999
   POE::Component::NonBlockingWrapper::Base: 0.002
   Syntax::Highlight::HTML: 0.04
@@ -16,7 +17,7 @@ build_requires:
 provides:
   POE::Component::Syntax::Highlight::HTML:
     file: lib/POE/Component/Syntax/Highlight/HTML.pm
-    version: 0.0101
+    version: 0.0201
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

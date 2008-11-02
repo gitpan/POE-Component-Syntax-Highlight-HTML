@@ -10,6 +10,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'POE::Component::NonBlockingWrapper::Base' => '0.002',
+                           'LWP::UserAgent' => '2.036',
                            'Syntax::Highlight::HTML' => '0.04',
                            'POE' => '0.9999'
                          }

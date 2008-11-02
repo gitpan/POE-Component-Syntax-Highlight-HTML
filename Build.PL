@@ -11,6 +11,7 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
+        'LWP::UserAgent' => 2.036,
         'POE'                                      => 0.9999,
         'POE::Component::NonBlockingWrapper::Base' => 0.002,
         'Syntax::Highlight::HTML'                  => 0.04,
